@@ -4,6 +4,8 @@ Solving sudoku has been a very old thing. Here is the new way to solve sudoku.
 How about taking a snapshot and getting a solved one.
 This is the place where we sovle sudoku using its image.
 
+![](paper.jpg)
+
 # Step1. Extracting sudoku from image.
 	1. Preprocessing involves 
 		Gaussian Blurr
@@ -15,15 +17,20 @@ This is the place where we sovle sudoku using its image.
 		warp perspective transform.
 		remove gridlines.
 
+![](read.jpg)
+
 # Step2. Extract each number and make a digital sudoku
 	1. crop image into 81 grids.
 	2. preprocess individual image.
 	3. apply morphology to sharp boundary and remove inside noise.
 	4. Feed the image in the trained model to get matrix.
-	
+
+![](warped.jpg)	
+
 # Step3. Solve sudoku 
 	Use standard backtraking technique.
 
+![](solved.jpg)
 
 Key Task: Finding empty spaces
 
