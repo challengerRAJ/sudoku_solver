@@ -24,11 +24,14 @@ This is the place where we sovle sudoku using its image.
 	2. preprocess individual image.
 	3. apply morphology to sharp boundary and remove inside noise.
 	4. Feed the image in the trained model to get matrix.
+		__CNN Model__
+		CONV2D-CONV2D-POOLING-DROPOUT-FCL-FCL(One-Hot)
+		Dataset - Char-74k (digits)
 
 ![](warped.jpg)	
 
 # Step3. Solve sudoku 
-	Use standard backtraking technique.
+	Use standard backtracking technique.
 
 ![](solved.jpg)
 
