@@ -18,7 +18,7 @@ This is the place where we sovle sudoku using its image.
 		remove gridlines.
 
 ![](read.jpg)
-
+![](warped.jpg)
 # Step2. Extract each number and make a digital sudoku
 	1. crop image into 81 grids.
 	2. preprocess individual image.
@@ -28,7 +28,7 @@ This is the place where we sovle sudoku using its image.
 		CONV2D-CONV2D-POOLING-DROPOUT-FCL-FCL(One-Hot)
 		Dataset - Char-74k (digits)
 
-![](warped.jpg)	
+![](unsolved.jpeg)
 
 # Step3. Solve sudoku 
 	Use standard backtracking technique.
