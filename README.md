@@ -32,6 +32,7 @@ This is the place where we sovle sudoku using its image.
 
 # Step3. Solve sudoku 
 	Use standard backtracking technique.
+	https://ide.geeksforgeeks.org/yDI2AwTOrt
 
 ![](solved.jpg)
 
